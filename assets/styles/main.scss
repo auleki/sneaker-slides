@@ -20,7 +20,7 @@ section {
   justify-content: space-between;
   align-items: center;
   background: $c1;
-  transition: 50ms;
+  transition: background 100ms ease-in-out;
 }
 
 header {
@@ -95,7 +95,7 @@ header {
 
       &:hover {
         background: $c2;
-        color: #fff;      
+        color: #fff;
         transform: translateY(2.5px);
       }
     }

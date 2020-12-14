@@ -23,8 +23,8 @@ section {
       -ms-flex-align: center;
           align-items: center;
   background: #0062be;
-  -webkit-transition: 50ms;
-  transition: 50ms;
+  -webkit-transition: background 100ms ease-in-out;
+  transition: background 100ms ease-in-out;
 }
 
 header {
